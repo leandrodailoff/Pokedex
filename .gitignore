@@ -1,33 +1,54 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
+# React Native specific
+node_modules/
 *.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
-
-# IntelliJ
-*.iml
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.expo/
+.expo-shared/
+yarn.lock
+package-lock.json
+/ios/Pods/
+*.xcodeproj/*
+*.xcworkspace/
+ios/build/
+/android/app/build/
+/android/.gradle/
+/android/.idea/
+/android/*/build
+/android/*/local.properties
+/android/*/intermediates/
+/android/*/generated/
+/android/app/src/debug/
+/android/app/src/release/
+/android/app/src/androidTest/
+/android/app/src/main/assets/index.android.bundle
+/android/.gradle/
+/android/.idea/
+/android/build
+/android/gradle/
+/android/app/src/debug/
+/android/app/src/release/
+/android/app/src/androidTest/
+/android/app/src/main/assets/index.android.bundle
+.gradle/
+local.properties
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
+/build/
+/app/*.keystore
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
 *.jks
-*.keystore
+*.p8
+*.key
+*.mobileprovision
+*.pem
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# macOS files
+*.DS_Store
+*.xcuserdata/
