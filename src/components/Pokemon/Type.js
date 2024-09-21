@@ -12,7 +12,7 @@ export default function Type(props) {
           key={index}
           style={{
             ...styles.pill,
-            backgroundColor: getColorByType(item.type.name),
+            //backgroundColor: getColorByType(item.type.name),
           }}
         >
           <Text>{capitalize(item.type.name)}</Text>
