@@ -15,6 +15,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "larilie.pokedex",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -22,6 +23,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5e8d3551-f699-49c3-abaf-c8f54074b516"
+      }
     }
   }
 }
