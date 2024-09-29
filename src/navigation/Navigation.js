@@ -34,6 +34,9 @@ export default function Navigation() {
         options={{
           tabBarLabel: "Cuenta",
           tabBarIcon: () => <Icon name="user" size={20} color="#900" />,
+          title: "",
+          headerTransparent: true,
+          headerShadowVisible: false,
         }}
       />
     </Tab.Navigator>

@@ -12,7 +12,6 @@ import getColorByType from "../utils/getColorByType";
 
 export default function PokemonCard(props) {
   const { pokemon } = props;
-  console.log(pokemon);
   const navigation = useNavigation();
   const pokemonColor = getColorByType(pokemon.type[0].type.name);
 
