@@ -12,7 +12,6 @@ const loadFonts = async () => {
   await Font.loadAsync({
     "RobotoMono-Italic": require("./assets/fonts/RobotoMono-Italic.ttf"),
   });
-  console.log("fuentes cargadas");
 };
 
 export default function App() {
